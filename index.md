@@ -13,3 +13,4 @@ permalink: /
    - A more simple section for daily public writing that could be built into more complex and well-connected notes.
 3. [**A Blog:**](/posts)
    - Finally, this Jekyll project also allows for blog posts like any other, which could be viewed as the final step for process of smart note-taking.
+testing
