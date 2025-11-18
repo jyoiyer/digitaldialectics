@@ -11,8 +11,8 @@
 /* Minimal overrides and dark mode variables scaffold */
 :root {
   /* === Base theme (core) === */
-  --bg: #ffffff;
-  --text: #37779b; 
+  --bg: #37779b;
+  --text: #ffffff; 
   --muted: #666666;
   --link: ;
   --border: #e5e7eb;
@@ -24,7 +24,7 @@
 
   /* === Surfaces === */
   --panel: #ffffff;
-  --bg-subtle: #f7f7f7;
+  --bg-subtle: #37779b;
   --bg-subtler: #eeeeee;
   --bg-muted: #f1f1f1;
   /* Specific component surfaces */
@@ -38,12 +38,12 @@
   --shadow-weak-2: #cfcfcf;
 
   /* === Links and brand === */
-  --brand-link: #0357ac;
+  --brand-link: #ffffff;
 
   /* === Footer === */
-  --footer-bg: #333333;
-  --footer-text: #eeeeee;
-  --footer-link: #cccccc;
+  --footer-bg: #37779b;
+  --footer-text: #ffffff;
+  --footer-link: #ffffff;
 
   /* === Forms and focus === */
   --placeholder: #999999;
