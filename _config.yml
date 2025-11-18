@@ -10,7 +10,7 @@ profile_pic_height: 120
 favicon: /assets/img/favicon.png
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jyoiyer.github.io/digitaldialectics/" # the base hostname & protocol for your site, e.g. https://example.com
-theme_color: white
+theme_color: #37779b
 encoding: utf-8
 
 # Links and Social Media
