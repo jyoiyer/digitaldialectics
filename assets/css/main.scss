@@ -15,7 +15,7 @@
   --text: #ffffff; 
   --muted: #666666;
   --link:  #ffffff;
-  --border: #e5e7eb;
+  --border: #37779b;
 
   /* === Legacy-friendly tokens (visual parity during migration) === */
   --text-legacy: #555555;
@@ -25,10 +25,10 @@
   /* === Surfaces === */
   --panel: #ffffff;
   --bg-subtle: #37779b;
-  --bg-subtler: #eeeeee;
+  --bg-subtler: #37779b;
   --bg-muted: #f1f1f1;
   /* Specific component surfaces */
-  --related-bg: #eeeeee; /* legacy light */
+  --related-bg: #37779b; /* legacy light */
 
   /* === Borders and shadows === */
   --hr: #cccccc;
@@ -59,7 +59,7 @@
   /* === Header chip/link styles === */
   --header-chip-bg: #333333;
   --header-chip-text: #ffffff;
-  --header-link-hover: #fffc99;
+  --header-link-hover: #ffffff;
   --header-chip-bg-legacy: #333333;
   --header-chip-text-legacy: #ffffff;
   --header-link-hover-legacy: #fffc99;
