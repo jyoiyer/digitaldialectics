@@ -123,13 +123,13 @@
 /* Explicit theme overrides via data-theme attribute */
 :root[data-theme="light"] {
   /* Base */
-  --bg: #ffffff;
-  --text: #111111;
-  --muted: #666666;
-  --link: #096efd;
-  --border: #e5e7eb;
+  --bg: #37779b;
+  --text: #ffffff;
+  --muted: ;
+  --link: #37779b;
+  --border: ;
   /* Legacy */
-  --text-legacy: #555555;
+  --text-legacy: #ffffff;
   --text-weak: #888888;
   /* Surfaces */
   --panel: #ffffff;
@@ -140,8 +140,8 @@
   /* Borders/brand/footer */
   --border-legacy: #dfdfdf;
   --brand-link: #0357ac;
-  --footer-bg: #333333;
-  --footer-text: #eeeeee;
+  --footer-bg: #37779b;
+  --footer-text: #ffffff;
   --hr: #cccccc;
 }
 
