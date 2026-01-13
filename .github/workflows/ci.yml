@@ -31,9 +31,7 @@ jobs:
       - name: HTMLProofer
         run: |
           bundle exec htmlproofer ./_site \
-            --check_html \
-            --check_opengraph \
-            --check_favicon \
+            --checks Images,Scripts,Links,OpenGraph,Favicon \
             --allow_hash_href \
             --assume-extension \
             --typhoeus='{"timeout": 15, "connecttimeout": 15, "followlocation": true}' \
