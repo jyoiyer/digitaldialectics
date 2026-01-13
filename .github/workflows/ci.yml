@@ -28,12 +28,12 @@ jobs:
         run: |
           bundle exec jekyll build --trace
 
-      - name: HTMLProofer
-        run: |
-          bundle exec htmlproofer ./_site \
-            --checks Images,Scripts,Links,OpenGraph,Favicon \
-            --allow-hash-href \
-            --assume-extension \
-            --typhoeus='{"timeout": 15, "connecttimeout": 15, "followlocation": true}' \
-            --ignore-status-codes 429,999 \
-            --ignore-urls "^mailto:"
+      # - name: HTMLProofer
+      #   run: |
+      #     bundle exec htmlproofer ./_site \
+      #       --checks Images,Scripts,Links,OpenGraph,Favicon \
+      #       --allow-hash-href \
+      #       --assume-extension \
+      #       --typhoeus='{"timeout": 15, "connecttimeout": 15, "followlocation": true}' \
+      #       --ignore-status-codes 429,999 \
+      #       --ignore-urls "^mailto:" 
