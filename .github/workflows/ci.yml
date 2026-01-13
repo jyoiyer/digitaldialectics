@@ -32,8 +32,8 @@ jobs:
         run: |
           bundle exec htmlproofer ./_site \
             --checks Images,Scripts,Links,OpenGraph,Favicon \
-            --allow_hash_href \
+            --allow-hash-href \
             --assume-extension \
             --typhoeus='{"timeout": 15, "connecttimeout": 15, "followlocation": true}' \
             --ignore-status-codes 429,999 \
-            --url-ignore "^mailto:"
+            --ignore-urls "^mailto:"
