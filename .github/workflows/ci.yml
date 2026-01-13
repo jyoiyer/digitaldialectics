@@ -36,4 +36,4 @@ jobs:
             --assume-extension \
             --typhoeus='{"timeout": 15, "connecttimeout": 15, "followlocation": true}' \
             --ignore-status-codes 429,999 \
-            --url-ignore "^mailto:"
+            --ignore-urls "^mailto:"
