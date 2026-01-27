@@ -2,11 +2,11 @@
 ---
 // Main SCSS entrypoint. Gradually migrate from style.css into partials.
 
-@import "css/variables";
-@import "css/base";
-@import "css/components";
-@import "css/utilities";
-@import "css/legacy";
+@import "variables";
+@import "base";
+@import "components";
+@import "utilities";
+@import "legacy";
 
 /* Minimal overrides and dark mode variables scaffold */
 :root {
