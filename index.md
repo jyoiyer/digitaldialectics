@@ -3,4 +3,4 @@ layout: page
 permalink: /
 ---
 
-[**On Publishing** (coming soon!)]
+**On Publishing** (coming soon!)
