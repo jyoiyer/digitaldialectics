@@ -221,6 +221,10 @@ header .userboard a:hover,
 header .link-to-notes a:hover,
 header .username a:hover { color: var(--text-strong); }
 
+header .username {
+  text-align: center;
+}
+
 .dashboard {
   border-bottom: 2px solid var(--bg-subtle);
   width: 100%;
