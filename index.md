@@ -3,4 +3,4 @@ layout: page
 permalink: /
 ---
 
-[**On Publishing**](/onpublishing) (coming soon!) 
+[**On Publishing**](/digitaldialectics/onpublishing) (coming soon!) 
