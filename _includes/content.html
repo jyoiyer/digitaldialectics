@@ -28,6 +28,7 @@
     {%- assign external_link_delimiter = '::' -%}
 
     {%- assign link_joiner_delimiter = '$@' -%}
+    {%- assign sidenote_delimiter = '::' -%} 
     {%- for item in content_array -%}
         {%- if forloop.index > 1 -%}
             {%- assign itemparts = item | split:']]' -%}
